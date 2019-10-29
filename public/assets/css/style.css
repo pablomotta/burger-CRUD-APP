@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(yellow, red);
+}
+
+.header,
+.header-text,
+.burger-form {
+    padding: 5rem;
+}
+
+.parent {
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.header-text h1 {
+    font-size: 4rem;
+}

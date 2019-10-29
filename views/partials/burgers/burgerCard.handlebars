@@ -1,17 +1,17 @@
 <div class="card mb-3" style="max-width: 540px;">
     <div class="row no-gutters">
-        <div class="col-4">
+        <div class="col-4 ">
             <img src="{{#if devoured }}assets/img/burger2.png{{else}}assets/img/burger1.png{{/if}}" class="card-img"
                 alt="...">
         </div>
         <div class="col-4">
-            <div class="card-body">
-                <h5 class="card-title">{{burger_name}}</h5>
+            <div class="card-body parent">
+                <h5 class=" mt-5     card-title">{{burger_name}}</h5>
             </div>
         </div>
         <div class="col-4">
-            <div class="card-body">
-                <button class="btn btn-danger" data-id="{{id}}">
+            <div class="card-body parent">
+                <button class="mt-5 btn btn-danger" data-id="{{id}}">
                     Delete
                 </button>
             </div>
