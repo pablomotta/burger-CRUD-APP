@@ -1,0 +1,10 @@
+<div class="col-md-6 text-center">
+    <h3>Favorite Burgers List</h3>
+    <div>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{>burgers/burgerCard devoured=false}}
+        {{/if}}
+        {{/each}}
+    </div>
+</div>
