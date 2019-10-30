@@ -1,6 +1,6 @@
 
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE vdzkcoifm8t3bt19; --burgers_db
+USE vdzkcoifm8t3bt19; -- burgers_db
 
 CREATE TABLE burgers
 (
