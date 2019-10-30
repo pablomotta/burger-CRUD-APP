@@ -55,7 +55,8 @@ var orm = {
         queryString += printQuestionMarks(vals.length);
         queryString += ') ';
 
-        console.log(queryString);
+        console.log('***************************************');
+        console.log(queryString + ' from ORM');
 
         return connection.query(queryString, vals);
     },
@@ -68,6 +69,7 @@ var orm = {
         queryString += ' WHERE ';
         queryString += condition;
 
+        console.log('***************************************');
         console.log(queryString);
         return connection.query(queryString);
     },
@@ -77,6 +79,7 @@ var orm = {
         queryString += ' WHERE ';
         queryString += condition;
 
+        console.log('***************************************');
         console.log(queryString);
         return connection.query(queryString);
     }
