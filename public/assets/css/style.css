@@ -5,7 +5,8 @@ body {
 .header,
 .header-text,
 .burger-form {
-    padding: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .parent {
@@ -16,4 +17,10 @@ body {
 
 .header-text h1 {
     font-size: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text h1 {
+        font-size: 3rem;
+    }
 }
