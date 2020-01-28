@@ -42,7 +42,3 @@ On your command line, run the following commands:
 ## Live App
 
 [Click here to visit the live website.](https://eat-da-burger-pm.herokuapp.com/)
-
-## Extras
-
-[Click here to see the app flow chart.](https://www.lucidchart.com/invitations/accept/20aed70b-5887-46fd-a74f-2710ebade132)
