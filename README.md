@@ -14,7 +14,7 @@ On this app users can:
 
 ## Prerequisites
 
--   [npm](https://www.npmjs.com/get-npm)
+-   [NPM](https://www.npmjs.com/get-npm)
 -   [NodeJS](https://nodejs.org/en/)
 -   [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
